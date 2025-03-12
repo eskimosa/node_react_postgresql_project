@@ -1,0 +1,12 @@
+.idea/
+
+.env
+
+# Node.js/React (frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+build/      # React build files (generated during production build)
+
+# macOS
+.DS_Store
