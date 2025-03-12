@@ -9,9 +9,11 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [require('daisyui')],
+  plugins: [
+    daisyui,
+  ],
   daisyui: {
-    themes: ['night'], // Enable specific themes or disable with `false`
+    themes: ['night'],
   },
 }
 
